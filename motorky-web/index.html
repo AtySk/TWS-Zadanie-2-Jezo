@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StreetTorque - Nakúp Motorku</title>
+    <link rel="stylesheet" href="../motorky-web/test.css" />
+  </head>
+  <body>
+    <header>
+      <a href="../motorky-web/index.html" class="logo">StreetTorque</a>
+      <button class="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav">
+        <a href="../motorky-web/login.html">Sign up/Log in</a>
+        <a href="../motorky-web/galeria.html">Galéria</a>
+        <a href="../motorky-web/o_nas.html">O nás</a>
+        <a href="../motorky-web/kontakt.html">Kontakt</a>
+        <a href="../motorky-web/Q2A.html" alt="Q2A"> Q2A </a>
+      </nav>
+    </header>
+
+    <section>
+      <div id="filter-photo">
+        <div class="bike-filter">
+          <form class="filter-form">
+            <select name="category">
+              <option value="">All categories</option>
+              <option>Cestne motorky</option>
+            </select>
+
+            <input type="text" placeholder="Search by keyword" name="keyword" />
+            <button type="submit" class="search-btn">Ukáž motorky</button>
+          </form>
+
+          <div class="categories">
+            <div class="cat-item">
+              <img
+                src="../fotky/motorcycle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+                alt="quad"
+              />
+              <p>Všetky motorky</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cards">
+      <div class="card">
+        <img src="../fotky/user.svg" alt="user-profile" />
+        <h3>Vytvor si účet</h3>
+        <p>
+          Prihlás sa alebo si vytvor účet a začni svoju cestu v StreetTorque
+          ešte dnes.
+        </p>
+        <a href="../motorky-web/login.html"
+          ><img src="../fotky/arrow-right.svg" alt="" id="card-narrow" /> Log
+          in/ Sign up</a
+        >
+      </div>
+      <div class="card">
+        <img
+          src="../fotky/forum_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+          alt="motorcycle"
+        />
+        <h3>Q2A</h3>
+        <p>
+          Máš otázky ohľadom motoriek? Pridaj sa k našej komunite a zdieľaj
+          svoje skúsenosti a rady s ostatnými.
+        </p>
+        <a href="../motorky-web/Q2A.html">
+          <img src="../fotky/arrow-right.svg" alt="Q2A" /> Q2A
+        </a>
+      </div>
+    </div>
+
+    <main>
+      <div class="main-content" id="main-content">
+        <h2>Najnovšie ponuky</h2>
+        <div class="sells">
+          <div class="sell-item">
+            <img
+              src="../fotky/2025-yamaha-yzf-r320-eu-midnight-black-360-degrees-001-03.jpg"
+              alt="Predaj 1"
+            />
+            <h3>Yamaha YZF-R3</h3>
+            <p>Rok: 2020</p>
+            <p>Cena: 4,500 €</p>
+            <button>Kúpiť</button>
+          </div>
+
+          <div class="sell-item">
+            <img src="../fotky/23MY_Ninja_650_GN1_STU__2_.jpg" alt="Predaj 2" />
+            <h3>Kawasaki Ninja 650</h3>
+            <p>Rok: 2019</p>
+            <p>Cena: 6,000 €</p>
+            <button>Kúpiť</button>
+          </div>
+
+          <div class="sell-item">
+            <img src="../fotky/Hodna CBR.jpg" alt="Predaj 3" />
+            <h3>Honda CBR500R</h3>
+            <p>Rok: 2021</p>
+            <p>Cena: 5,200 €</p>
+            <button>Kúpiť</button>
+          </div>
+
+          <div class="sell-item">
+            <img src="../fotky/SUZUKI.jpg" alt="Predaj 4" />
+            <h3>Suzuki GSX250R</h3>
+            <p>Rok: 2022</p>
+            <p>Cena: 3,800 €</p>
+            <button>Kúpiť</button>
+          </div>
+        </div>
+        <div id="more-sells">
+          <button>Zobraziť viac</button>
+        </div>
+      </div>
+    </main>
+
+    <div class="clanky-slider">
+      <div class="clanky-boxy">
+        <div class="clanky-boxy">
+          <div class="clanok1">
+            <div class="clanok1-obr">
+              <img
+                src="../fotky/Yamaha - review.jpg"
+                alt="clanok 1 - obrazok"
+              />
+            </div>
+            <h2>Je Yamaha R1 najlepšia superbike?</h2>
+            <a
+              href="https://www.motorcyclenews.com/bike-reviews/yamaha/r1/2020/"
+              target="_blank"
+              button
+              >Viac info</a
+            >
+          </div>
+          <div class="clanok2">
+            <div class="clanok2-obr">
+              <img src="../fotky/o-nas.jpg" alt="clanok 2 - obrazok" />
+            </div>
+            <h2>Chcete sa dozvediet o nas viac?</h2>
+
+            <a href="../motorky-web/o_nas.html">Viac info</a>
+          </div>
+          <div class="clanok3">
+            <div class="clanok3-obr">
+              <img
+                src="../fotky/bd942c4445024725b8aabd9c4353b979.jpg"
+                alt="clanok 3 - obrazok"
+              />
+            </div>
+            <p>Novinky a trendy v motorkách!</p>
+            <a
+              href="https://www.1000ps.com/sk-sk/clanok/3012252/5-trendov-motocyklovej-sez-ny-2025-plus-modelove-highlighty"
+              target="_blank"
+              >Viac info</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="footer-content">
+        <div class="footer-logo">StreetTorque</div>
+        <div class="footer-links">
+          <a href="../motorky-web/index.html">Domov</a>
+          <a href="../motorky-web/o_nas.html">O nás</a>
+          <a href="../motorky-web/kontakt.html">Kontakt</a>
+          <a href="../motorky-web/galeria.html">Galéria</a>
+          <a href="../motorky-web/login.html">Log in</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 StreetTorque. Všetky práva vyhradené.</p>
+      </div>
+    </footer>
+
+    <script src="../JavaScript/testscript.js"></script>
+  </body>
+</html>
